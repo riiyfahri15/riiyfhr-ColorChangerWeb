@@ -1,0 +1,79 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    transition: .7s ease-in-out;
+}
+
+body.black .title {
+    color: white;
+}
+
+.title {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+    padding: 14px;
+}
+.container { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 80%;
+    background-color: rgb(206, 204, 204);
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+.reset {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: aquamarine;
+}
+
+.reset:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    color: black;
+}
+   
+.aquamarine {
+    background-color: aquamarine;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
