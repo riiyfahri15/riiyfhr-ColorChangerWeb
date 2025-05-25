@@ -54,12 +54,6 @@ body.black .title {
     margin-top: 15px;
     background-color: aquamarine;
 }
-
-.reset:hover {
-    background-color: white;
-    transition: .2s ease-in-out;
-    color: black;
-}
    
 .aquamarine {
     background-color: aquamarine;
