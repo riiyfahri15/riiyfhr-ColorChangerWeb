@@ -52,11 +52,12 @@ body.black .title {
     border-radius: 15px;
     cursor: pointer;
     margin-top: 15px;
-    background-color: aquamarine;
+    background-color: white;
 }
+
    
 .aquamarine {
-    background-color: white;
+    background-color: aquamarine;
 }
 
 .blue {
